@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Harley Davidson</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://drive.google.com/uc?id=1ml6OyJ_Sv_21wtyZUUW7B8xzZl8lvmcd">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+</head>
+
+<style>
+  /* CSS for the loader */
+  #loader {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    z-index: 9999;
+    opacity: 1;
+    transition: opacity 0.3s ease-in-out;
+  }
+
+  #loader.hide {
+    opacity: 0;
+    pointer-events: none;
+  }
+
+  #loader-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+
+  /* CSS for the loading spinner */
+  .loader-spinner {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border: 5px solid #ccc;
+    border-top-color: #333;
+    border-radius: 50%;
+    animation: loader-spin 1s infinite linear;
+  }
+
+  @keyframes loader-spin {
+    to {
+      transform: rotate(360deg);
+    }
+  }
+</style>
+
+<script>
+  document.onreadystatechange = function () {
+    var loader = document.getElementById('loader');
+    if (document.readyState !== 'complete') {
+      loader.classList.remove('hide');
+    } else {
+      loader.classList.add('hide');
+    }
+  };
+</script>
+
+<body>
+  <div id="loader">
+    <div id="loader-content">
+      <div class="loader-spinner"></div>
+    </div>
+  </div>
+  <nav>
+    <img src="https://drive.google.com/uc?id=1c8oYQ_AnibUXWqrSABaRe1nEKyYsf6AI" alt="">
+    <ul>
+      <a href="#">About</a>
+      <a href="#">Store</a>
+      <a href="#">Guarantee</a>
+      <a href="#">Contacts</a>
+    </ul>
+    <span class="material-symbols-outlined">
+      shopping_cart
+    </span>
+  </nav>
+  <div class="main-con">
+    <div class="inner-con">
+      <h1><b>GET LOST <br />IN THE MOMENT</b></h1>
+      <p>Unleash the Power and Style of HD Bikes, <br />
+        Style, Freedom</p>
+      <button>Choose the Bike</button>
+    </div>
+  </div>
+  <div class="mid-con">
+    <div class="first">
+      <h1><b>INRODUCTION</b></h1>
+      <p>Experience the exhilarating world of HD bikes, where power, style, and freedom converge. In this blog post,
+        we'll dive into the essence of HD bikes, highlighting their raw power, iconic design, and the liberating spirit
+        they embody.</p>
+    </div>
+    <div class="second">
+      <p>HD bikes are synonymous with power. With robust engines and impressive torque, they offer an adrenaline-pumping
+        ride that sets hearts racing. Feel the thrill as you unleash the untamed power of an HD bike on the open road.
+      </p>
+      <p>HD bikes are instantly recognizable for their timeless design. From the muscular frames to the distinct V-twin
+        engines, these bikes exude an aura of strength and character. Turn heads and make a statement with an HD bike
+        that showcases your unique style.</p>
+    </div>
+  </div>
+  <div class="black">
+    <div class="third">
+      <h1><b>FREEDOM AND <br /> ADVENTURE</b></h1>
+      <p>HD bikes represent freedom and the joy of the open road. Whether you're cruising through scenic landscapes or
+        embarking on thrilling off-road adventures, HD bikes provide the freedom to explore without boundaries.
+        Experience the world in a whole new way on the back of an HD bike.</p>
+    </div>
+    <div class="img">
+      <img src="https://drive.google.com/uc?id=1R-ohdOnOwTLBQ9LwBlOJn3-YqpNRD0GM" />
+    </div>
+  </div>
+  <div class="last-con">
+    <h1><b>UNFORGETTABLE EXPERIENCE</b></h1>
+    <p>Every ride on an HD bike is an unforgettable experience. The rev of the engine, the wind in your hair, and the
+      freedom to chart your own course create memories that last a lifetime. Embrace the spirit of adventure and make
+      each ride a new chapter in your story.</p>
+  </div>
+  <div class="footer">
+    <div class="fifth">
+      <label><b>SCREW IT, LET'S RIDE</b></label>
+      <p>TEST RIDE A HARLEY DAVIDSON" MOTORCYCLE AT TOUR NEAREST DEALERSHIP TODAY ,<br />
+        GOT TO
+        <u>H-D.COM</u> TO START YOUR JOURNEY.
+      </p>
+      <h6>@ H-D 2014, History, Harley-Davidson and Few & Shipid bugs are the Bookmarks of H-D U.S.A, I.L.C.</h6>
+    </div>
+    <img src="https://drive.google.com/uc?id=1FwSphPkN-6mNlpyEcVByUgqxBxMBWufQ" alt="Image" />
+  </div>
+</body>
+
+
+
+</html>
