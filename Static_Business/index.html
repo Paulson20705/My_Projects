@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chaitanya Events</title>
+  <link rel="icon" type="image/png" href="Img/HomeTLog.png" />
+  <link rel="stylesheet" href="CSS/style.css" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+  <style>
+    .after-login {
+      background: transparent;
+      border: 1px solid #59e905;
+      border-radius: 25px;
+      font-size: 17px;
+      height: 35px;
+      width: 85px;
+      color: #59e905;
+      font-family: calibri;
+      padding-right: 10;
+      cursor: pointer;
+    }
+  </style>
+
+</head>
+
+<body>
+  <div class="wrapper">
+    <nav>
+      <img class="logo" src="Img/HomeLogo.png" height="50" width="185">
+      <ul>
+        <button id="SU" class="Signup" onclick="openModal()">SignUp</button>
+      </ul>
+    </nav>
+
+    <!--Signup Page-->
+    <div id="myModal" class="modal">
+      <div class="modal-content">
+        <div class="form-value">
+          <span onclick="clsu()" class="close">&times;</span>
+          <form action="">
+            <h2 class="log">Login</h2>
+            <div class="input-box">
+              <ion-icon name="mail-outline"></ion-icon>
+              <input id="email" type="email" required>
+              <label for="">Email</label>
+            </div>
+            <div class="input-box">
+              <ion-icon name="lock-closed-outline"></ion-icon>
+              <input id="password" type="password" required>
+              <label for="">Password</label>
+            </div>
+            <div class="forget">
+              <label for="">
+                <input type="checkbox">Remember Me, <a href="#">Forget Password</a>
+              </label>
+            </div>
+            <button onclick="getDet()">Log in</button>
+            <div class="register">
+              <p>Don't have an Account <a href="#">Sign up</a></p>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <div class="mid">
+      <section class="MidC">
+        <label class="midlbl"><b>Chaitanya,<br> An Event Management Company.</b></label>
+        <button class="midbtn" onclick="Scroll()">Get Started!</button><br>
+      </section>
+
+    </div>
+
+    <section class="sec" id="scroll">
+      <div class="service-section">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="section-title">
+                <h2>OUR SERVICES</h2>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4">
+              <div class="single-service" onclick="Studios()">
+                <span class="material-symbols-outlined">
+                  photo_camera
+                </span>
+                <h3>Studios</h3>
+                <p>The best moments are non-recurring. Let us capture them for you.
+                </p>
+              </div>
+
+              <div class="single-service" onclick="cater()">
+                <span class="material-symbols-outlined">
+                  fastfood
+                </span>
+                <h3>Caterers</h3>
+                <p>A delicious journey. Foods in your budget.</p>
+              </div>
+              <div class="single-service" onclick="Decor()">
+                <span class="material-symbols-outlined">
+                  chair
+                </span>
+                <h3>Decorations</h3>
+                <p>Design is a way to express your personality. </p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="single-service" onclick="Music()">
+                <span class="material-symbols-outlined">
+                  <span class="material-symbols-outlined">
+                    speaker
+                  </span>
+                </span>
+                <h3>Music</h3>
+                <p>It's all about the music. Discover the magic of music.
+                </p>
+              </div>
+
+              <div class="single-service" onclick="Gifts()">
+                <span class="material-symbols-outlined">
+                  Redeem
+                </span>
+                <h3>Gifts</h3>
+                <p>We have a great selection. Surprise them with a unique gift.</p>
+              </div>
+              <div class="single-service" onclick="Print()">
+                <span class="material-symbols-outlined">
+                  print
+                </span>
+                <h3>Printing Works</h3>
+                <p>Whatever you want to print. More then inks.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <div>
+      <footer>
+
+        <div class="rows">
+          <div class="rw">
+            <h4>Phone :</h4>
+            <p>+91 9788011867</p>
+            <p>+91 9489854608</p>
+            <h4>Web :</h4>
+            <p>ChaitanyaGroups.com</p>
+          </div>
+          <div class="rw">
+            <h4>Email :</h4>
+            <p>chaitanyagroups2022gmail.com</p>
+            <h4>Address :</h4>
+            <p>3/10 Kurinchinagar,
+              (DP Computers)<br>
+              Tiruchendur,
+              Tuticorin-628215.
+            </p>
+          </div>
+          <div class="rw">
+            <h4>Instagram :</h4>
+            <p class="haslink" onclick="instapage()">chaitanya_groups2022</p>
+            <h4>Facebook :</h4>
+            <p class="haslink" onclick="fbpage()">Chaitanya Events</p>
+          </div>
+        </div>
+
+      </footer>
+    </div>
+  </div>
+</body>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+<script language="JavaScript">
+
+  function Studios() {
+    window.location.href = "#";
+  }
+
+  function cater() {
+    window.location.href = "#";
+  }
+
+  function Decor() {
+    window.location.href = "#";
+  }
+
+  function Music() {
+    window.location.href = "#";
+  }
+
+  function Gifts() {
+    window.location.href = "#";
+  }
+
+  function Print() {
+    window.location.href = "#";
+  }
+
+  function instapage() {
+    window.location.href = "https://www.instagram.com/chaitanya_groups2022/";
+  }
+
+  function fbpage() {
+    window.location.href = "https://www.facebook.com/profile.php?id=100087642021698";
+  }
+
+  function Scroll() {
+    window.scrollTo({ top: 730, behavior: 'smooth' });
+  }
+
+</script>
+
+<!--Script For Popup Signup Page-->
+
+<script language="JavaScript">
+  var modal = document.getElementById("myModal");
+
+  function openModal() {
+    modal.style.display = "block";
+  }
+
+  function closeModal() {
+    modal.style.display = "none";
+  }
+
+  function clsu() {
+    closeModal();
+  }
+
+
+  function getDet() {
+    var email = document.getElementById("email").value;
+    var password = document.getElementById("password").value;
+    var signup = document.getElementsByID("SU");
+    var signin;
+
+    if (email.endsWith("@gmail.com")) {
+      console.log(email);
+    }
+    else {
+      alert("Enter a Valid Email.")
+    }
+
+    if (password.length >= 8) {
+      console.log(password);
+      clsu();
+      signin = 1;
+    }
+    else {
+      alert("Password must be at least 8 characters long");
+      signin = 0;
+    }
+    document.querySelector("#email").value = "";
+    document.querySelector("#password").value = "";
+    document.querySelector("#signup").classList.remove("Signup");
+
+    if (signin == 1) {
+
+      signup.classList.remove("Signup");
+    }
+  }
+
+</script>
+
+</html>
