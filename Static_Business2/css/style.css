@@ -1,0 +1,185 @@
+body {
+  margin: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+/* Styles For Nav bar */
+
+nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+  font-family: calibri;
+  background-color: #145CD4;
+}
+
+nav h1,
+nav ul,
+nav button {
+  color: #fff;
+  margin: 15px;
+  padding: 0;
+}
+
+nav button {
+  height: 30px;
+  width: 75px;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  background: transparent;
+}
+
+nav ul a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+/* First Container */
+
+.first-con {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #145CD4;
+  height: 400px;
+}
+
+/* Left Side of First Conatiner */
+
+.first-con-left {
+  margin-left: 4%;
+  margin-right: 2%;
+  font-family: calibri;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.first-con-left h1,
+.first-con-left p {
+  margin-top: 0;
+  color: #fff;
+}
+
+.first-con-btns {
+  display: flex;
+  align-items: center;
+}
+
+.first-con-first-btn {
+  height: 30px;
+  width: 100px;
+  border-radius: 5px;
+  border: none;
+  color: #145CD4;
+  font-family: calibri;
+  font-weight: 600;
+}
+
+.first-con-second-btn {
+  height: 30px;
+  width: 30px;
+  margin-left: 10px;
+  border: none;
+  border-radius: 50%;
+  color: #145CD4;
+  font-family: calibri;
+  font-size: 18px;
+}
+
+.first-con-btns label {
+  margin-left: 10px;
+  color: #fff;
+  font-size: 1.1em;
+}
+
+/* Right side of First Container */
+
+.first-con-right {
+  margin-left: 2%;
+  margin-right: 2.5%;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.first-con-right img {
+  height: 275px;
+  width: 80%;
+}
+
+/* Second Container */
+
+.second-con {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #fff;
+  height: 400px;
+}
+
+/* Left side of Second Container */
+
+.second-con-left {
+  margin-left: 2.5%;
+  margin-right: 2;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.second-con-left img {
+  height: 275px;
+  width: 80%;
+}
+
+/* Right Side of Second Container */
+
+.second-con-right {
+  margin-left: 2%;
+  margin-right: 4%;
+  font-family: calibri;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.second-con-right h1 {
+  margin-top: 0;
+}
+
+.second-con-btns {
+  height: 50px;
+  background: #efefef;
+  display: flex;
+  align-items: center;
+}
+
+.second-con-btns button {
+  height: 30px;
+  border: none;
+  border-radius: 4px;
+  width: 100px;
+  font-family: calibri;
+}
+
+.one {
+  margin: 5px;
+  margin-left: 10px;
+  background: #145CD4;
+  color: #efefef;
+}
+
+.two,
+.three {
+  margin: 5px;
+  background: #fff;
+}
